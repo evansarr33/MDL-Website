@@ -1,5 +1,6 @@
 body {
-background-color: #6E958A;
+    background-color: #6E958A;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .headerbox {
@@ -24,4 +25,18 @@ background-color: #6E958A;
     left: 50%;
     bottom: 10px;
     transform: translate(-50%,-50%);
+}
+
+h1.sitename {
+    color: #CDE37F;
+    left:50px;
+    top: -40px;
+    position:fixed;
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+}
+
+h1 {
+    position:relative;
+    text-align:center;
 }
