@@ -15,7 +15,8 @@ body {
 }
 
 .mainbox {
-    width: 1000px;
+    width: 80%;
+    max-width: 10000px;
     height: auto;
     background-color: #A1C4C6;
     position: absolute;
