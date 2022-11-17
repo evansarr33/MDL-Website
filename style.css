@@ -17,31 +17,46 @@ body {
 .mainbox {
     width: 1000px;
     height: 1000px;
-    margin-bottom: 75px;
-    margin-top: 100px;
     background-color: #A1C4C6;
     position: absolute;
-    top:  80%;
+    top:  20%;
     left: 50%;
-    bottom: 10px;
-    transform: translate(-50%,-50%);
+    margin-bottom: 100%;
+    transform: translate(-50%);
+}
+
+p.credit {
+    position:absolute;
+    bottom: -10px;
+    left: 50%;
+    transform:translate(-50%);
+}
+
+.resizedTextbox {
+    width: 100px;
+    height: 20px;
+    padding: 1px
 }
 
 h1.sitename {
     color: #CDE37F;
-    left:50px;
+    left:100px;
     top: -40px;
     position:fixed;
     font-family: 'Playfair Display', serif;
     font-size: 55px;
 }
 
+h1.lycee {
+    color: #CDE37F;
+    left: 235px;
+    top: 0px;
+    position:fixed;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
 h1 {
     position:relative;
     text-align:center;
-}
-
-.credit {
-    
-    
 }
