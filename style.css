@@ -16,7 +16,7 @@ body {
 
 .mainbox {
     width: 1000px;
-    height: 1000px;
+    height: auto;
     background-color: #A1C4C6;
     position: absolute;
     top:  20%;
@@ -59,4 +59,10 @@ h1.lycee {
 h1 {
     position:relative;
     text-align:center;
+}
+
+.info {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
 }
