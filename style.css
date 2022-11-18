@@ -2,6 +2,8 @@ body {
     background-color: #6E958A;
     font-family: 'Open Sans', sans-serif;
     overflow:10%;
+    background-image: url("pictures/backgroundtest.jpg");
+    background-size: 190%;
 }
 
 .headerbox {
