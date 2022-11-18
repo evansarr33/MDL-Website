@@ -116,4 +116,5 @@ h1 {
 p.products {
     font-size: 22px;
     text-align:center;
+    width: 100%;
 }
