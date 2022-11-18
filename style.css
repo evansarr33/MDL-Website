@@ -42,7 +42,7 @@ p.credit {
 
 h1.sitename {
     color: #CDE37F;
-    left:-25%;
+    left:-20%;
     top: -50%;
     position:absolute;
     font-family: 'Playfair Display', serif;
@@ -91,14 +91,24 @@ h1 {
     position:absolute;
     padding: 5%;
     right: 1%;
-    font-size: 15px;
+    font-size: 18px;
+    border-color: #669A7A;
+    background-color: #4a7c5b;
+    color:#CDE37F;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .menu {
     position: absolute;
     padding: 10%;
-    right:70px;
-    font-size: 20px;
+    right:80px;
+    font-size: 25px;
     border-color: #669A7A;
-    background-color: #7ca589;
+    background-color: #4a7c5b;
+    color:#CDE37F;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
 }
