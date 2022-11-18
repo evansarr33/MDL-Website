@@ -42,8 +42,8 @@ p.credit {
 
 h1.sitename {
     color: #CDE37F;
-    left:100px;
-    top: -40px;
+    left:-25%;
+    top: -6%;
     position:fixed;
     font-family: 'Playfair Display', serif;
     font-size: 55px;
@@ -74,3 +74,10 @@ h1 {
     max-height:80%;
 }
 
+.logo {
+    max-width:5%;
+    max-height: 5%;
+    align-self: left;
+    min-width: 5%;
+    max-width: 5%;
+}
