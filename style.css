@@ -95,9 +95,9 @@ h1 {
     border-color: #669A7A;
     background-color: #4a7c5b;
     color:#CDE37F;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .menu {
@@ -108,7 +108,12 @@ h1 {
     border-color: #669A7A;
     background-color: #4a7c5b;
     color:#CDE37F;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+p.products {
+    font-size: 22px;
+    text-align:center;
 }
