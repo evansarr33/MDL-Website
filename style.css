@@ -1,7 +1,8 @@
 body {
     background-color: #6E958A;
     font-family: 'Open Sans', sans-serif;
-    overflow:10%;
+    /* allow the page to scroll if content overflows */
+    overflow: auto;
     background-image: url("pictures/backgroundtest.jpg");
     background-size: 190%;
 }
