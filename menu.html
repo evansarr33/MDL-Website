@@ -1,66 +1,93 @@
-<!DOCTYPE html> <!--This page is a copy of index.html, for helpful comments look at the main page-->
-<html>
-    <head>
-        <title>MDL - Jaufr&eacute Rudel</title>
-        <link  rel="stylesheet" href="style.css"/>
-        <link rel="shortcut icon" href="favicon.ico" />
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
-        <script data-goatcounter="https://mdl-bureau.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-    </head>
-    <body>
-        <div class="headerbox">
-            <img link="pictures\logo.png">
-            <a href="index.html"><h1 class="sitename"><img class="logo" src="pictures/logo.png">MDL</h1></a>
-            <div class="nav">
-                <a href="menu.html">
-                    <button class="menu">Carte</button>
-                </a>
-                <a href="https://mdljaufrerudel.bitrix24.fr/stream/">
-                    <button class="bitrix">Espace Membre</button>
-                </a>
-            </div>
-        </div>
-        <div class="mainbox" class="resizedTextbox"> 
-            <h1>Carte des ventes</h1>
-            <div class="info"> <!--Don't ask why I did it like this, it works okay ?!-->
-                <p class="products">
-                    Snickers ----------- 0.90€
-                    <br>
-                    Lion ---------------- 0.90€
-                    <br>
-                    Kinder Bueno ------ 1.00€
-                    <br>
-                    Nutella B-Ready ---- 1.00€
-                    <br>
-                    _________________________________________
-                    <br>
-                    <br>
-                    Pates chinoises --- 2.00€
-                    <br>
-                    _________________________________________
-                    <br>
-                    <br>
-                    Chocolat chaud --- 0.50€
-                    <br>
-                    Café ---------------- 0.50€
-                    <br>
-                    Thé ---------------- 0.20€
-                    <br>
-                    Capri-sun -------- 1.00€
-                    <br>
-
-                </p>   
-            </div>
-             <p class="credit">Made with &#9829 by Oskan | <a href="https://github.com/Lex0planet/MDL-Website">Open sourced</a></p>
-            <br>
-            <br>
-        </div>
-    </body>
-</html>
+ <!DOCTYPE html> <!--This page is a copy of index.html, for helpful comments look at the main page-->
+-<html>
++<html lang="fr">
+     <head>
+         <title>MDL - Jaufr&eacute Rudel</title>
+         <link  rel="stylesheet" href="style.css"/>
+         <link rel="shortcut icon" href="favicon.ico" />
+         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+         <script data-goatcounter="https://mdl-bureau.goatcounter.com/count"
+         async src="//gc.zgo.at/count.js"></script>
+     </head>
+     <body>
+-        <div class="headerbox">
+-            <img link="pictures\logo.png">
+-            <a href="index.html"><h1 class="sitename"><img class="logo" src="pictures/logo.png">MDL</h1></a>
+-            <div class="nav">
+-                <a href="menu.html">
+-                    <button class="menu">Carte</button>
+-                </a>
+-                <a href="https://mdljaufrerudel.bitrix24.fr/stream/">
+-                    <button class="bitrix">Espace Membre</button>
+-                </a>
+-            </div>
+-        </div>
+-        <div class="mainbox" class="resizedTextbox"> 
++        <header class="headerbox">
++            <a href="index.html" class="home">
++                <img class="logo" src="pictures/logo.png" alt="MDL logo">
++                <h1 class="sitename">MDL</h1>
++            </a>
++            <nav class="nav">
++                <a href="menu.html" class="menu">Carte</a>
++                <a href="https://mdljaufrerudel.bitrix24.fr/stream/" class="bitrix">Espace Membre</a>
++            </nav>
++        </header>
++        <div class="mainbox resizedTextbox"> 
+             <h1>Carte des ventes</h1>
+-            <div class="info"> <!--Don't ask why I did it like this, it works okay ?!-->
+-                <p class="products">
+-                    Snickers ----------- 0.90€
+-                    <br>
+-                    Lion ---------------- 0.90€
+-                    <br>
+-                    Kinder Bueno ------ 1.00€
+-                    <br>
+-                    Nutella B-Ready ---- 1.00€
+-                    <br>
+-                    _________________________________________
+-                    <br>
+-                    <br>
+-                    Pates chinoises --- 2.00€
+-                    <br>
+-                    _________________________________________
+-                    <br>
+-                    <br>
+-                    Chocolat chaud --- 0.50€
+-                    <br>
+-                    Café ---------------- 0.50€
+-                    <br>
+-                    Thé ---------------- 0.20€
+-                    <br>
+-                    Capri-sun -------- 1.00€
+-                    <br>
+-
+-                </p>   
++            <div class="info">
++                <ul class="product-list">
++                    <li>
++                        <img src="pictures/snickers.jpg" alt="Snickers">
++                        <p>Snickers - 0.90€</p>
++                    </li>
++                    <li>
++                        <img src="pictures/ramen.jpg" alt="Pâtes chinoises">
++                        <p>Pâtes chinoises - 2.00€</p>
++                    </li>
++                    <li>
++                        <img src="pictures/hot_chocolate.jpg" alt="Chocolat chaud">
++                        <p>Chocolat chaud - 0.50€</p>
++                    </li>
++                </ul>
+             </div>
+              <p class="credit">Made with &#9829 by Oskan | <a href="https://github.com/Lex0planet/MDL-Website">Open sourced</a></p>
+             <br>
+             <br>
+         </div>
+     </body>
+ </html>
