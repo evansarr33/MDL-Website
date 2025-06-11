@@ -178,3 +178,27 @@
 +    font-style: italic;
      font-weight: bold;
  }
+
+/* Styles for security register */
+.log-form {
+    margin-bottom: 0.5rem;
+}
+
+.log-form input[type="date"],
+.log-form input[type="text"] {
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+.log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.log-table th,
+.log-table td {
+    border: 1px solid #4a7c5b;
+    padding: 0.5rem;
+    text-align: left;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Registre de Sécurité</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="headerbox">
+        <a href="index.html" class="home">
+            <img class="logo" src="pictures/logo.png" alt="MDL logo">
+            <h1 class="sitename">MDL</h1>
+        </a>
+        <nav class="nav">
+            <a href="menu.html" class="menu">Carte</a>
+            <a href="security.html" class="menu">Registre</a>
+            <a href="https://mdljaufrerudel.bitrix24.fr/stream/" class="bitrix">Espace Membre</a>
+        </nav>
+    </header>
+
+    <div class="mainbox">
+        <h1>Registre de Sécurité</h1>
+
+        <section class="info">
+            <h2>Visites de sécurité</h2>
+            <form id="visit-form" class="log-form">
+                <input type="date" id="visit-date" required>
+                <input type="text" id="visit-desc" placeholder="Observations" required>
+                <button type="submit">Ajouter</button>
+            </form>
+            <table id="visit-table" class="log-table">
+                <thead>
+                    <tr><th>Date</th><th>Observations</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <section class="info">
+            <h2>Exercices prévus</h2>
+            <form id="exercise-form" class="log-form">
+                <input type="date" id="exercise-date" required>
+                <input type="text" id="exercise-desc" placeholder="Détails" required>
+                <button type="submit">Ajouter</button>
+            </form>
+            <table id="exercise-table" class="log-table">
+                <thead>
+                    <tr><th>Date</th><th>Détails</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <section class="info">
+            <h2>Rapports d'évacuation</h2>
+            <form id="evac-form" class="log-form">
+                <input type="date" id="evac-date" required>
+                <input type="text" id="evac-desc" placeholder="Résumé" required>
+                <button type="submit">Ajouter</button>
+            </form>
+            <table id="evac-table" class="log-table">
+                <thead>
+                    <tr><th>Date</th><th>Résumé</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="security.js"></script>
+</body>
+</html>
